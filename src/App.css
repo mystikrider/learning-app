@@ -58,3 +58,18 @@
 .strike {
   text-decoration: line-through;
 }
+hr{
+  margin: 2rem 0;
+}
+.pad{
+  padding: 2rem;
+}
+button {
+  border: 1px solid;
+  border-radius: 4px;
+  padding: .5rem;
+}
+input{
+  border-radius: 4px;
+  padding: .5rem;
+}

@@ -1,5 +1,6 @@
 import './App.css'
 import Accordion from './components/Accordion'
+import Chips from './components/Chips'
 import ToDoList from './components/ToDoList'
 
 const items = [
@@ -28,6 +29,8 @@ const items = [
 function App() {
   return (
     <>
+      <Chips />
+      <hr />
       <ToDoList />
       <hr />
       <Accordion items={items} />

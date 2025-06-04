@@ -7,7 +7,7 @@ const Accordion = ({items}) => {
         setOpenIndex(openIndex === index ? null : index)
     }
     return !items || (items?.length === 0) ? "No Items Available" : (
-        <div className="accordion">
+        <div className="accordion pad">
             {items?.map((item, index) => {
                 return <div key={index} className="accordion-item">
                     <button onClick={() => handleToggle(index)} className="accordion-title">

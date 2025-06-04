@@ -24,9 +24,9 @@ const ToDoList = () => {
     const handleDelete = (id) => {
         setTodoList(todoList.filter(todo => todo.id !== id))
     }
-    console.log("todoList", todoList)
+
     return (
-        <div>
+        <div className="pad">
             <input value={inputText} onChange={(e) => setInputText(e.target.value)} type="text" />
             <button onClick={() => handleAdd()}>Add</button>
             <ul>
